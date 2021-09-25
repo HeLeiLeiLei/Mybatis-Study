@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个对应的Dao/mapper接口=就相当于以前实现Dao接口的意思-->
+<mapper namespace="com.hl.dao.UserDao">
+    <select id="getUserList" resultType="com.hl.pojo.User">
+        select * from mybatis.user
+    </select>
+</mapper>
