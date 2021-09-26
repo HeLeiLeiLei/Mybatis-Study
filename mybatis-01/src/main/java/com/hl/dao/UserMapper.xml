@@ -10,8 +10,22 @@
         select * from mybatis.user
     </select>
 
+    <!--模糊查询-->
+<!--    <select id="getUserListLike" parameterType="map" resultType="com.hl.pojo.User">-->
+<!--        select * from mybatis.user where userName like "%"#{userName}"%"-->
+<!--    </select>-->
+
+    <select id="getUserListLike" parameterType="map" resultType="com.hl.pojo.User">
+        select * from mybatis.user where userName like #{userName}
+    </select>
+
     <select id="getUserListById" parameterType="int" resultType="com.hl.pojo.User">
         select * from mybatis.user where id=#{id}
+    </select>
+
+    <!--通过Map传参-->
+    <select id="getUserListById2" parameterType="map" resultType="com.hl.pojo.User">
+        select * from mybatis.user where id=#{userId}
     </select>
 
     <insert id="addUser" parameterType="com.hl.pojo.User">
