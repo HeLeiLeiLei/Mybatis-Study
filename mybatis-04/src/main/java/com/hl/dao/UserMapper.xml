@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个对应的Dao/mapper接口=就相当于以前实现Dao接口的意思-->
+<mapper namespace="com.hl.dao.UserMapper">
+
+<!--    <select id="getUserListById" parameterType="int" resultType="user">-->
+<!--        select * from mybatis.user where id=#{id}-->
+<!--    </select>-->
+
+<!--    <select id="getUserListById" parameterType="int" resultType="user">-->
+<!--        select id,userName,userPassword as pwd from mybatis.user where id=#{id}-->
+<!--    </select>-->
+
+    <!--resultMap结果集映射-->
+<!--    <resultMap id="map" type="User">-->
+<!--        &lt;!&ndash; column代表的是数据库中的字段 id properyt则代表的是pojo中属性&ndash;&gt;-->
+<!--        <result column="id" property="id"/>-->
+<!--        <result column="userName" property="userName"/>-->
+<!--        <result column="userPassword" property="pwd"/>-->
+<!--    </resultMap>-->
+    <!--resultMap结果集映射 应用于数据库表中的字段和pojo中的属性不匹配情况下使用-->
+    <resultMap id="map" type="User">
+        <!-- column代表的是数据库中的字段 id properyt则代表的是pojo中属性-->
+        <result column="userPassword" property="pwd"/>
+    </resultMap>
+
+    <select id="getUserListById" parameterType="int" resultMap="map">
+        select * from mybatis.user where id=#{id}
+    </select>
+
+
+
+</mapper>

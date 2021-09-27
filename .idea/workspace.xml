@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676d90c9-317e-4259-a808-0e563990e888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/hl/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/hl/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/hl/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/test/java/com/hl/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/hl/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/hl/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/hl/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-03/src/test/java/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/hl/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/hl/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/hl/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/hl/dao/UserDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/hl/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/hl/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/hl/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/hl/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/hl/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/hl/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/hl/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/hl/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/hl/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/hl/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/hl/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/hl/dao/UserDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,6 +56,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -75,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-02/src/main/java/com/hl/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-04/src/main/java/com/hl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,14 +98,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mybatis-Study\mybatis-04\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hl.dao" />
+      <recent name="dao" />
       <recent name="com.hl.util" />
       <recent name="com.hl.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mybatis-Study\mybatis-04\src\main\java\com\hl" />
+      <recent name="D:\Mybatis-Study\mybatis-04\src\main\java" />
+      <recent name="D:\Mybatis-Study\mybatis-03\src\main\java\com\hl" />
+      <recent name="D:\Mybatis-Study\mybatis-03\src\main\java" />
       <recent name="D:\Mybatis-Study\mybatis-02\src\main\java\com\hl\dao" />
-      <recent name="D:\Mybatis-Study\mybatis-02\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,9 +127,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.Test">
-    <configuration name="UserDaoTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-02" />
+  <component name="RunManager" selected="JUnit.UserDaoTest.getUserListById (1)">
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hl.dao.*" />
@@ -121,14 +138,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hl.dao" />
       <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.UserDaoTest" />
       <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
+    <configuration name="UserDaoTest.getUserListById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hl.dao.*" />
@@ -137,30 +169,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hl.dao" />
       <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="METHOD_NAME" value="getUserListById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getUserListById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
+    <configuration name="UserDaoTest.getUserListById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hl.dao.*" />
+          <option name="PATTERN" value="dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hl.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserListById2" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getUserListById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.getUserListLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
+    <configuration name="UserDaoTest.log4jTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hl.dao.*" />
@@ -169,23 +201,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hl.dao" />
       <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="getUserListLike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hl.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hl.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="METHOD_NAME" value="log4jTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest.Test" />
-        <item itemvalue="JUnit.UserDaoTest.getUserListLike" />
-        <item itemvalue="JUnit.UserDaoTest.getUserListById2" />
-        <item itemvalue="JUnit.UserDaoTest.deleteUser" />
-        <item itemvalue="JUnit.UserDaoTest.updateUser" />
+        <item itemvalue="JUnit.UserDaoTest.getUserListById (1)" />
+        <item itemvalue="JUnit.UserDaoTest.log4jTest" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserDaoTest.getUserListById" />
+        <item itemvalue="JUnit.UserDaoTest.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +286,8 @@
       <updated>1632575777329</updated>
       <workItem from="1632575783352" duration="44000" />
       <workItem from="1632624729736" duration="1920000" />
-      <workItem from="1632639886502" duration="6214000" />
+      <workItem from="1632639886502" duration="7524000" />
+      <workItem from="1632700378509" duration="4411000" />
     </task>
     <servers />
   </component>
