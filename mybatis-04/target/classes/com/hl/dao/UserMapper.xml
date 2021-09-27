@@ -32,5 +32,16 @@
     </select>
 
 
+    <!--实现分页查询1-->
+    <select id="getUserListByLimit" parameterType="map" resultMap="map">
+        select * from mybatis.user limit #{startIndex},#{pageSize}
+    </select>
+
+    <!--实现分页查询2-->
+    <select id="getUserListByRowBands" resultMap="map">
+        select * from mybatis.user
+    </select>
+
+
 
 </mapper>

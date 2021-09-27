@@ -10,8 +10,7 @@
     <!--配置日志-->
     <settings>
         <!--标准的日志工厂实现-->
-<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
-        <setting name="logImpl" value="LOG4J"/>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
 
     <typeAliases>
@@ -38,9 +37,17 @@
 
 
     <!--每一个mapper.xml都需要在mybatis的核心配置文件中注册-->
+<!--    <mappers>-->
+<!--&lt;!&ndash;        <mapper resource="com/hl/dao/UserMapper.xml"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapper class="com.hl.dao.UserMapper"/>&ndash;&gt;-->
+<!--        <package name="com.hl.dao"/>-->
+<!--    </mappers>-->
+
+
     <mappers>
-<!--        <mapper resource="com/hl/dao/UserMapper.xml"/>-->
-<!--        <mapper class="com.hl.dao.UserMapper"/>-->
-        <package name="com.hl.dao"/>
+        <mapper class="com.hl.dao.UserMapper"/>
     </mappers>
+
+    <!--绑定接口-->
+
 </configuration>
