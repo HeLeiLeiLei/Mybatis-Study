@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676d90c9-317e-4259-a808-0e563990e888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-06/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-06/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/hl/dao/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/hl/dao/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/hl/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/hl/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/main/java/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-07/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/util/IdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-08/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/hl/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/src/main/java/com/hl/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/test/java/com/hl/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/src/test/java/com/hl/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/hl/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/target/classes/com/hl/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/target/test-classes/com/hl/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/target/test-classes/com/hl/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,21 +54,7 @@
         <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="teacher: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mybatis@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="blog: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -116,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-07/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-08/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mybatis-Study\mybatis-08\src\main\java" />
       <recent name="D:\Mybatis-Study\mybatis-07\src\main\java" />
       <recent name="D:\Mybatis-Study\mybatis-07\src\main\java\com\hl" />
       <recent name="D:\Mybatis-Study\mybatis-06\src\main\java" />
       <recent name="D:\Mybatis-Study\mybatis-05\src\main\java\com\hl" />
-      <recent name="D:\Mybatis-Study\mybatis-05\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hl.util" />
@@ -158,16 +132,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.getTeacherstudents">
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="mybatis-06" />
+  <component name="RunManager" selected="JUnit.MyTest.Test4">
+    <configuration name="IdUtils.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hl.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hl.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hl.util.IdUtils" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+    <configuration name="MyTest.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="Test" />
@@ -176,43 +159,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.getTeacherstudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
+    <configuration name="MyTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="getTeacherstudents" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hl.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hl.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="deleteUser" />
+    <configuration name="MyTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="Test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.selectUserByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hl.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hl.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.hl.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="selectUserByIdTest" />
+    <configuration name="MyTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="Test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.getTeacherstudents" />
-        <item itemvalue="JUnit.MyTest.Test" />
-        <item itemvalue="Application.MyTest" />
-        <item itemvalue="JUnit.UserDaoTest.selectUserByIdTest" />
-        <item itemvalue="JUnit.UserDaoTest.deleteUser" />
+        <item itemvalue="JUnit.MyTest.Test4" />
+        <item itemvalue="JUnit.MyTest.Test2" />
+        <item itemvalue="JUnit.MyTest.Test3" />
+        <item itemvalue="JUnit.MyTest.Test (1)" />
+        <item itemvalue="JUnit.IdUtils.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +259,11 @@
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@14eaf1d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4981234" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@14eaf1d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2ccaf804" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +288,7 @@
       <workItem from="1632751433564" duration="1904000" />
       <workItem from="1632754908474" duration="67000" />
       <workItem from="1632754997819" duration="1379000" />
-      <workItem from="1632800459825" duration="7944000" />
+      <workItem from="1632800459825" duration="15492000" />
     </task>
     <servers />
   </component>

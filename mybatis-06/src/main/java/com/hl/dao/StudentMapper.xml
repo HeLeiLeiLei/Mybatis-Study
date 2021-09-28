@@ -18,9 +18,6 @@
     </resultMap>
 
 
-
-
-
     <!--嵌套子查询-->
     <select id="getStudentById" resultMap="map" parameterType="int">
         select * from mybatis.student where id=#{id}
