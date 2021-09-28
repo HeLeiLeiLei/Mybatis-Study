@@ -27,7 +27,7 @@ public class UserDaoTest {
     public void selectUserByIdTest(){
         SqlSession sqlSession = MyBatisUtils.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        User user = mapper.getUserById(5);
+        User user = mapper.getUserById(1);
         System.out.println(user);
         sqlSession.close();
     }
