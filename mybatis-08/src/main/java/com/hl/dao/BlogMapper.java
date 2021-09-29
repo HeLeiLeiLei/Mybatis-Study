@@ -15,4 +15,7 @@ public interface BlogMapper {
 
     //修改Blog
     int updateBlog(Map map);
+
+    //批量删除
+    int deleteBlogsById(Map map);
 }

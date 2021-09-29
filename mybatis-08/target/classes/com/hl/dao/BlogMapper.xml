@@ -6,19 +6,22 @@
     <insert id="addBlog" parameterType="Blog">
         insert into blog(id,title,author,create_date,views) values(#{id},#{title},#{author},#{createDate},#{views});
     </insert>
-    
+
+    <sql id="title-author-views">
+        <if test="title != null">
+            and title like #{title}
+        </if>
+        <if test="author != null">
+            and author=#{author}
+        </if>
+        <if test="views>0">
+            and views &lt;= #{views}
+        </if>
+    </sql>
     <select id="getBlogByIf" parameterType="map" resultType="blog">
         select * from blog
         <where>
-            <if test="title != null">
-                and title like #{title}
-            </if>
-            <if test="author != null">
-                and author=#{author}
-            </if>
-            <if test="views>0">
-                and views &lt;= #{views}
-            </if>
+            <include refid="title-author-views"></include>
         </where>
     </select>
 
@@ -54,4 +57,14 @@
         </choose>
         </where>
     </select>
+
+    <!--通过foreach 实现批量删除-->
+    <delete id="deleteBlogsById" parameterType="map">
+        delete from blog
+        <where>
+            <foreach collection="ids" item="id" open="(" separator="or" close=")">
+                id=#{id}
+            </foreach>
+        </where>
+    </delete>
 </mapper>

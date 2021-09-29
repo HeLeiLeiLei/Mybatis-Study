@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676d90c9-317e-4259-a808-0e563990e888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-08/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/pojo/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/util/IdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-08/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06/src/main/java/com/hl/dao/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/src/main/java/com/hl/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/hl/dao/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/target/classes/com/hl/dao/BlogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/hl/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/target/classes/com/hl/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,23 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.Test4">
-    <configuration name="IdUtils.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hl.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hl.util" />
-      <option name="MAIN_CLASS_NAME" value="com.hl.util.IdUtils" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest.Test2">
     <configuration name="MyTest.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-08" />
       <option name="PACKAGE_NAME" value="" />
@@ -184,6 +162,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <option name="METHOD_NAME" value="Test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.Test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="Test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.Test4" />
         <item itemvalue="JUnit.MyTest.Test2" />
-        <item itemvalue="JUnit.MyTest.Test3" />
+        <item itemvalue="JUnit.MyTest.Test5" />
         <item itemvalue="JUnit.MyTest.Test (1)" />
-        <item itemvalue="JUnit.IdUtils.Test" />
+        <item itemvalue="JUnit.MyTest.Test4" />
+        <item itemvalue="JUnit.MyTest.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -253,17 +241,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@14eaf1d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d7a3475" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@14eaf1d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4981234" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@14eaf1d4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2ccaf804" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7d7a3475" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@76332397" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +271,8 @@
       <workItem from="1632751433564" duration="1904000" />
       <workItem from="1632754908474" duration="67000" />
       <workItem from="1632754997819" duration="1379000" />
-      <workItem from="1632800459825" duration="15492000" />
+      <workItem from="1632800459825" duration="16308000" />
+      <workItem from="1632881262516" duration="1204000" />
     </task>
     <servers />
   </component>

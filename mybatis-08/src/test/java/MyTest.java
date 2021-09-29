@@ -5,10 +5,7 @@ import com.hl.util.MyBatisUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MyTest {
 
@@ -19,24 +16,24 @@ public class MyTest {
 
         Blog blog=new Blog();
         blog.setId(IdUtils.getId());
-        blog.setTitle("JavaWeb");
-        blog.setAuthor("小何");
+        blog.setTitle("1111111");
+        blog.setAuthor("小p");
         blog.setCreateDate(new Date());
         blog.setViews(999);
         mapper.addBlog(blog);
 
         Blog blog2=new Blog();
         blog2.setId(IdUtils.getId());
-        blog2.setTitle("Mybatis");
-        blog2.setAuthor("小k");
+        blog2.setTitle("222222");
+        blog2.setAuthor("小o");
         blog2.setCreateDate(new Date());
         blog2.setViews(999);
         mapper.addBlog(blog2);
 
         Blog blog3=new Blog();
         blog3.setId(IdUtils.getId());
-        blog3.setTitle("spring");
-        blog3.setAuthor("小L");
+        blog3.setTitle("333332");
+        blog3.setAuthor("小i");
         blog3.setCreateDate(new Date());
         blog3.setViews(999);
         mapper.addBlog(blog3);
@@ -52,8 +49,8 @@ public class MyTest {
 
         Map<Object,Object> map = new HashMap<Object,Object>();
         //map.put("title","%"+"s"+"%");
-        //map.put("author","小L");
-        map.put("views",-1);
+        map.put("author","小L");
+        //map.put("views",-1);
         List<Blog> blogs = mapper.getBlogByIf(map);
         for (Blog blog : blogs) {
             System.out.println(blog);
@@ -89,6 +86,22 @@ public class MyTest {
         for (Blog blog : blogs) {
             System.out.println(blog);
         }
+        sqlSession.close();
+    }
+
+    @Test
+    public void Test5(){
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        BlogMapper mapper = sqlSession.getMapper(BlogMapper.class);
+
+        Map map = new HashMap();
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("65170e6cc73c4f1b967f7a9e14c6f939");
+        list.add("74254fb85fd5437d9dd21380225f17c6");
+        list.add("804dbc1fc475405e8799ce364053aeda");
+        map.put("ids",list);
+        int i = mapper.deleteBlogsById(map);
+
         sqlSession.close();
     }
 }
