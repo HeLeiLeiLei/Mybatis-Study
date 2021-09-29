@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration核心配置文件-->
+<configuration>
+
+    <properties resource="db.properties"/>
+
+    <!--配置日志-->
+    <settings>
+        <!--标准的日志工厂实现-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--是否开启驼峰命名自动映射(camel case) 映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--显示开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <typeAliases>
+<!--        <typeAlias type="com.hl.pojo.User" alias="user"/>
+            这种方式可以在pojo类比较少的时候运用 可以自定义类名
+-->
+        <package name="com.hl.pojo"/>
+        <!--这种方式可以在pojo类比较多的时候运用,包扫描 但是参数类型必须是类名的小写开头 不能自定义-->
+    </typeAliases>
+
+
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <!--每一个mapper.xml都需要在mybatis的核心配置文件中注册-->
+<!--    <mappers>-->
+<!--&lt;!&ndash;        <mapper resource="com/hl/dao/UserMapper.xml"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapper class="com.hl.dao.UserMapper"/>&ndash;&gt;-->
+<!--        <package name="com.hl.dao"/>-->
+<!--    </mappers>-->
+    <mappers>
+        <package name="com.hl.dao"/>
+    </mappers>
+
+
+
+</configuration>

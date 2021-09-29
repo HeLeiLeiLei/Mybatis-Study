@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hl.dao.UserMapper">
+
+    <!--开启二级缓存-->
+    <cache
+            eviction="FIFO"
+            flushInterval="60000"
+            size="512"
+            readOnly="true"/>
+
+<!--    当一级缓存结束时 就会将数据提交到二级缓存 如果是相同查询在同一个namespace下面的话-->
+<!--    这个查询就会直接去二级缓存里面去取值-->
+
+<!--    /**-->
+<!--    * 缓存顺序是  当用户第一次进入到服务器 需要查询数据时 先会到二级缓存中去找有没有相应的数据-->
+<!--    * 如果二级缓存没有 就回到一级缓存中寻找数据 如果一级缓存中没有数据时就会取执行相应的sql-->
+<!--    * 并把数据放在一级缓存中 当一级缓存结束时也就是sqlSession.colse后 它会把查询到的数据放到-->
+<!--    * 二级缓存中去 如果用户重复调用改方法查询数据 那么查询的数据 就会在二级缓存中 直接使用-->
+<!--    */-->
+
+    <select id="findUserById" parameterType="int" resultType="user" useCache="true">
+        select * from mybatis.user
+        <where>
+            <if test="id != null">
+            id=#{id}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateUser" parameterType="user">
+        update mybatis.user
+        <set>
+            <if test="userName != null">
+                userName=#{userName},
+            </if>
+            <if test="userPassword != null">
+                userPassword=#{userPassword},
+            </if>
+        </set>
+        <where>
+            id=#{id}
+        </where>
+    </update>
+</mapper>
